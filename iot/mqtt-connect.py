@@ -27,6 +27,8 @@ client.on_publish = on_publish
 
 client.subscribe("Projeto/mpu6050/aceleracao", qos=2)
 
+client.subscribe("Projeto/dht22/temperaturaeumidade", qos=2)
+
 client.publish("Projeto/teste", payload="Olá", qos=2)
 
 client.loop_forever()
