@@ -14,7 +14,7 @@ export function LoginScreen() {
                 <View style={{marginTop:24}}><Button /></View>
                 
                 <ContainerText>
-                    <TextNormal>Já possui uma conta? </TextNormal>
+                    <TextNormal>Ainda não possui uma conta? </TextNormal>
                     <TextBlue>Cadastra-se</TextBlue>
                 </ContainerText>
             </Form>
