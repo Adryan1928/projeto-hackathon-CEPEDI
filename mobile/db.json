@@ -1,0 +1,56 @@
+{
+  "paradas" : [
+    {
+      "id": 1,
+      "nome": "Rua Fernando Pessoa",
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    {
+      "id": 2,
+      "nome": "Avenida da Liberdade",
+      "latitude": 38.7223,
+      "longitude": -9.1393
+    },
+    {
+      "id": 3,
+      "nome": "Praça do Comércio",
+      "latitude": 38.7072,
+      "longitude": -9.1356
+    }
+  ],
+  "rotas" : [
+    {
+      "id": 1,
+      "nome": "R1302",
+      "paradas": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "R1303",
+      "paradas": [
+        2,
+        3,
+        1
+      ]
+    }
+  ],
+  "veiculos" : [
+    {
+      "id": 1,
+      "nome": "Ônibus 3929",
+      "rota": 1,
+      "indexParada": 0
+    },
+    {
+      "id": 2,
+      "nome": "Ônibus 2322",
+      "rota": 2,
+      "indexParada": 2
+    }
+  ]
+}
