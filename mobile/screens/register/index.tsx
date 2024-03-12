@@ -10,7 +10,7 @@ export function RegisterScreen(){
                 <Form>
                     <Input label="Email"/>
                     <Input label="Senha"/>
-                    <Input label="Confirmr senha"/>
+                    <Input label="Confirmar senha"/>
                     <Button />
                     <ContainerText>
                         <TextNormal>Já possui uma conta? </TextNormal>
